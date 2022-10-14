@@ -1,0 +1,70 @@
+.publiDetails{
+    width: 60%;
+    margin: 0 auto;
+}
+.svgsOptions{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+.moreDetails{
+    width: 100%;
+    text-align: center;
+}
+.moreDetails img{
+    max-height: 25em;
+    max-width: 100%;
+}
+.moreDetails h2{
+    margin-bottom: 1em;
+}
+.moreDetails p{
+    margin-top: .5em;
+    font-size: 1.2em;
+}
+.formCreateComment{
+    margin: 2em;
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+.formCreateComment input[type='submit']{
+    margin-bottom: 1em;
+}
+.commentsPubli{
+    display: flex;
+    flex-direction: column;
+}
+.commentsPubli, .comment{
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.commentsPubli .comment img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.textComment{
+    font-size: 1em;
+}
+.userComment{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.notComment{
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+@media (max-width: 1000px) {
+    .imgPubliDetail{
+        width: 100%;
+    }
+    .formCreateComment{
+        margin: 2em 0;
+    }
+    .formCreateComment{
+        font-size: .73em;
+    }
+}

@@ -1,0 +1,21 @@
+.App{
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media (max-width: 450px) {
+    .App{
+        width: 90%;
+    }
+    label{
+        width: 80%;
+    }
+    
+    input{
+        font-size: .9em;
+        width: 80%;
+    }
+    button{
+        font-size: 1em;
+    }
+  }

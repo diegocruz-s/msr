@@ -1,0 +1,97 @@
+.titlePublis{
+    text-align: center;
+}
+.titlePublis{
+    margin-top: 1em;
+}
+.error, .success{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.myPublis{
+    width: 60%;
+    margin: auto;
+    gap: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.myPublis .publi {
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20em;
+    margin-bottom: 2em;
+    word-break: break-all;
+}
+.myPublis .publi img{
+    width: 100%;
+    max-height: 15em;
+}
+.myPublis .publi p{
+    font-size: 1.2em;
+    margin-bottom: .7em;
+    text-align: center;
+}
+.myPublis .publi .optionsPubli{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: .4em 0;
+}
+.myPublis .publi .optionsPubli svg{
+    transition: all .1s;
+}
+.myPublis .publi .optionsPubli svg:hover{
+    cursor: pointer;
+    font-size: 23px;
+}
+h3{
+    text-align: center;
+    margin-top: 1em;
+}
+#form{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+.formPubli, .formEdit{
+    width: 80%;
+    margin: auto;
+}
+.formPubli, .formEdit label{
+    width: 60%;
+}
+.formPubli input[type=submit]{
+    width: 60%;
+    margin-bottom: 2em;
+}
+
+.formEdit button{
+    margin: 1em 0 2em 0;
+    width: 30%;
+    border-radius: .5em;
+    padding: .3em;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+}
+.formEdit button:hover{
+    background-color: rgb(255, 44, 44);
+}
+.formEdit img{
+    max-height: 15em;
+    margin-bottom: 1.5em;
+}
+.hideForm{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .myPublis .publi {
+        width: 100%;
+    }
+}
